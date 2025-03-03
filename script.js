@@ -48,12 +48,12 @@ after.innerHTML=(Number(atd_hours)/(Number(max_hours)+Number(abs_hours))*100).to
         let temp4 = document.getElementById("hours_value")
         
         let v = (Number(atd_hours)/max_hours)*100
-        if (v<75){
+        if (v<65){
             let i=0
             while(true){
                 i+=1
                 let j = ((Number(atd_hours)+i)/(max_hours+i))*100
-                if (j>=75){
+                if (j>=65){
                     break;
                 }
             }
